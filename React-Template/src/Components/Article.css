@@ -1,0 +1,58 @@
+
+.content-container{
+  margin-bottom:10px;
+  padding: 40px;
+  display: grid;
+  gap:16px
+}
+
+.top-section{
+  color:#32575A ;
+  font-family: Playfair Display;
+  font-size:32px;
+  line-height: 42px;
+  justify-content: space-between;
+  margin-left: 40px;
+  font-weight: 500;
+  margin-bottom:20px;
+
+}
+
+.sub-heading h2, .sub-heading h3 {
+  font-family: 'Playfair Display';
+  font-size: 32px;
+  line-height:42px;
+  color: #1A202C;
+  font-style: italic;
+  font-weight: 500;
+  margin-bottom: 5px;
+  
+}
+
+.mid-section{
+  font-family:Playfair Display;
+  font-style: italic;
+  color: #32575A;
+  margin-top: 5px;
+  margin-bottom:5px;
+  line-height: 32px;
+  font-size: 24px;
+  border-radius: 8px;
+  font-weight: 500;
+  
+ 
+}
+.mid-section h2{
+ background-color:#DAECF1 ;
+ gap: 20px;
+}
+
+.mid-section p{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  margin-top: 10px;
+  gap: 10px;
+  color: #4A5568;
+  line-height: 22px;
+ 
+}
