@@ -1,28 +1,36 @@
-import React from "react";
+import React, { useState } from "react";
 import "./style.css";
 
 function Header() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <header className="header">
       <div className="nav-container">
         <nav className="nav">
-          <ul className="nav-links">
-            <li className="logo">B E T W E E N</li>
+          
+          <div className="logo">B E T W E E N</div>
+
+          
+          <button className="toggle" onClick={() => setIsOpen(!isOpen)}>
+            ☰
+          </button>
+
+          <ul className={`nav-links ${isOpen ? "open" : ""}`}>
             <li>
-              <a href="#"></a>For Birth Workers
+              <a href="#">For Birth Workers</a>
             </li>
             <li>
-              <a href="#"></a>How it Works
+              <a href="#">How it Works</a>
             </li>
             <li>
-              <a href="#"></a>Blog
+              <a href="#">Blog</a>
             </li>
             <li>
-              <a href="#"></a>FAQs
+              <a href="#">FAQs</a>
             </li>
           </ul>
           <button className="login-btn">Login/Sign Up</button>
-         
         </nav>
       </div>
     </header>

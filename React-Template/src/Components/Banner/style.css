@@ -19,7 +19,8 @@
   position:absolute;
   color:white;
   max-width:55%;
-  margin: auto;
+  margin-top:35px;
+  margin-left:5%;
   
 }
 
@@ -126,13 +127,14 @@
     @media (max-width:476px){
       .container{
         padding: 8px;
-
       }
+        
+
       .items{
-        padding:10px;
+        padding:5px;
       }
       .find-btn{
-        margin-left:22%;
+        margin-left:25%;
       }
       
     }
