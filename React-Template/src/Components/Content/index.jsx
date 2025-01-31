@@ -1,5 +1,5 @@
 import React from "react";
-import "./Content.css";
+import "./style.css";
 
 function Content() {
   return (
@@ -11,16 +11,19 @@ function Content() {
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis.
           </p>
         </div>
-        <div className="box"></div>
+        <div className="box">
+          <img src="https://images.pexels.com/photos/30425649/pexels-photo-30425649/free-photo-of-black-butterfly-on-pink-flower-in-green-foliage.jpeg" alt="Butterfly on flower" />
         </div>
-        
-        
+      </div>
+      
       <div className="section-2">
-      <div className="box"></div>
+        <div className="box">
+        <img src="https://images.pexels.com/photos/30425649/pexels-photo-30425649/free-photo-of-black-butterfly-on-pink-flower-in-green-foliage.jpeg" alt="Butterfly on flower" />
+        </div>
         <div className="text">
           <h2><em>Easy contracting and payments</em></h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
         </div>

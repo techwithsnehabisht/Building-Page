@@ -1,0 +1,56 @@
+.nav-container{
+  width:100%;
+  max-width:95%;
+  margin:auto;
+}
+.header .nav{
+  display:flex;
+  justify-content:space-between;
+  padding:10px 6px;
+}
+
+.nav-links {
+  display:flex;
+  align-items:center;
+  gap:24px;
+  list-style:none;
+  color:#1A202C;
+  font-size:16px;
+  line-height:22px;
+  font-family:Inter;
+  font-weight:400;
+}
+
+.nav-links li {
+  cursor:pointer;
+  font-weight:500;
+}
+
+.logo{
+  font-size:18px;
+  line-height:22px;
+  font-family:Inter;
+  color:#32575A;
+}
+
+.login-btn{
+  background-color:#FBFDFD;
+  color:#427174;
+  border: 1px solid #427174;
+  padding: 16px 55px 8px 55px;
+  border-radius:5px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .nav-container{
+    flex-direction:column;
+    margin-bottom:10px;
+  }
+
+  .nav-links{
+    flex-direction:row;
+    gap:20px;
+  }
+
+}

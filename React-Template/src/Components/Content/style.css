@@ -1,0 +1,168 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+.content-container {
+  width:100%;
+  margin:auto 0;
+
+}
+
+
+.section-1 ,.section-2 {
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+
+}
+.text {
+  flex:1;
+  margin:20px;
+}
+
+.text h2 em {
+  font-family:
+  Playfair Display ;
+  font-style:italic;
+  color: #427174;
+  font-size: 48px;
+  font-weight:500;
+  
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 500;
+  color:#4A5568;
+  font-family:Inter;
+  justify-content:space-evenly;
+}
+
+.box {
+  flex: 1;
+  height:200px; 
+  background-color: #E6EAE8;
+  border-radius:1px;
+  border: 1px solid black;
+  
+}
+@media (max-width: 768px) {
+
+  .content-container .box {
+   display:grid;
+    grid-template-columns: repeat(1 1fr);
+     gap:2px;
+  }
+
+  .text {
+    padding:5px;
+    gap:10px;
+    margin-bottom:2px;
+  }
+  .text p{
+    margin-top:8px;
+  }
+
+  .section-1 ,.section-2{
+    display: grid;
+    align-items: center;
+
+  }}
+  
+  
+  */
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .content-container {
+    width: 100%;
+    padding:15px;
+    margin: auto;
+  
+  }
+  
+  .section-1, .section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:10px; 
+    margin: auto;
+   
+  }
+  
+  .text {
+    flex: 1;
+    
+  }
+  
+  .text h2 em {
+    font-family: "Playfair Display", serif;
+    font-style: italic;
+    color: #427174;
+    font-size: 32px;
+    font-weight: 500;
+  }
+  
+  .text p {
+    font-size: 16px;
+    line-height: 22px;
+    font-weight: 500;
+    color: #4A5568;
+    gap: 5px;
+    font-family: "Inter", sans-serif;
+    margin-top:10px; 
+  }
+  
+  .box {
+    flex: 1;
+    height: 250px;
+    background-color: #E6EAE8;
+    border-radius:8px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .box img {
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .section-1, .section-2 {
+      flex-direction: column;
+      text-align: center;
+      gap:5px; 
+      margin: auto;
+    }
+  
+    .box {
+      width: 100%;
+      height: 200px;
+    }
+  
+    .text {
+      margin:5px;
+    }
+  
+    .text h2 em {
+      font-size: 28px;
+    }
+  
+    .text p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+  }
+  

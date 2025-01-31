@@ -1,18 +1,21 @@
 import React from 'react'
+import Article from './Components/Article'
 import Header from './Components/Header'
 import Banner from './Components/Banner'
-import Main from './Components/Main'
+import Content from './Components/Content'
 import Footer from './Components/Footer'
-import Article from './Components/Article'
+
+
 
 function App() {
   return (
     <>
     <Header/>
     <Banner/>
-    <Main/>
+    <Content/>
     <Article/>
     <Footer/>
+    
     </>
   )
 }
